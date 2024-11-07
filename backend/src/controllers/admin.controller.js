@@ -146,8 +146,9 @@ const login = AsyncHandler(async (req, res) => {
     const accessToken = existedAdmin.generateAccessToken()
 
     const options = {
-        httpsOnly: true,
-        secure: true
+        httpOnly: true,
+        secure: true,
+        sameSite: "None"
     }
 
     return res
