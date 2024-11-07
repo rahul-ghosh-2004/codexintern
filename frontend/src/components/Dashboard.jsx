@@ -28,7 +28,7 @@ const Dashboard = () => {
 
       try {
         const rspn = await axios.get(logout_url, {}, { withCredentials: true })
-        // console.log(rspn)
+        console.log(rspn)
         toast.success(rspn?.data?.message)
         setTimeout(() => {
           navigate("/login")
