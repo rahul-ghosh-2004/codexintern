@@ -12,10 +12,10 @@ const Dashboard = () => {
     const fetchCurentUser = async () => {
         try {
             const response = await axios.get(current_admin_url, { withCredentials: true })
-            console.log(response)
+            // console.log(response)
             toast.success("Admin logged in!!")
         } catch (error) {
-            console.log(error)
+            // console.log(error)
             toast.error(error?.response?.data?.message)
             setTimeout(() => {
               navigate("/login")
