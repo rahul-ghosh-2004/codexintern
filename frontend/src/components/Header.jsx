@@ -51,6 +51,9 @@ const Header = () => {
             <li class='max-lg:border-b max-lg:py-3 px-3'><NavLink to={"trainings"}
               class='hover:text-[#007bff] text-[#333] font-semibold block text-[15px]'>Training Program</NavLink>
             </li>
+            <li class='max-lg:border-b max-lg:py-3 px-3'><NavLink to={"verify"}
+              class='hover:text-[#007bff] text-[#333] font-semibold block text-[15px]'>Verify Certificate</NavLink>
+            </li>
             <li class='max-lg:border-b max-lg:py-3 px-3'><NavLink to={"about"}
               class='hover:text-[#007bff] text-[#333] font-semibold block text-[15px]'>About Us</NavLink>
             </li>

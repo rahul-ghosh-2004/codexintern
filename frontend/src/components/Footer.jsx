@@ -43,7 +43,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <Link to="verify" className="hover:underline">
-                    Verify
+                    Verify Certificate
                   </Link>
                 </li>
               </ul>

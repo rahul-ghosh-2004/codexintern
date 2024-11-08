@@ -8,6 +8,14 @@ import python from "./Python.png"
 import aiml from "./aiml.jpg"
 import java from "./java.png"
 import ISO from "./1023112.jpeg"
+import buildYourBusiness from "./build-your-business.png"
+import curriculam from "./curriculam.jpg"
+import handsOnExperience from "./hands-on.jpg"
+import mentorship from "./mentorship.jpg"
+import training from "./training.jpg"
+import search from "./search.png"
+import profile from "./profile.jpg"
+import review from "./review.jpg"
 
 export {
     logo,
@@ -19,5 +27,13 @@ export {
     python,
     aiml,
     java,
-    ISO
+    ISO,
+    buildYourBusiness,
+    curriculam,
+    handsOnExperience,
+    mentorship,
+    training,
+    search,
+    profile,
+    review
 }
