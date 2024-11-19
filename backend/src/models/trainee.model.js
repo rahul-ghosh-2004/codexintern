@@ -1,6 +1,6 @@
-import mongoose, { Schema } from "mongoose"
+import mongoose, { Schema } from "mongoose";
 
-const internSchema = new Schema({
+const traineeSchema = new Schema({
     fullname: {
         type: String,
         required: true
@@ -28,6 +28,6 @@ const internSchema = new Schema({
     }
 }, { timestamps: true })
 
-const Intern = mongoose.model("Intern", internSchema)
+const Trainee = mongoose.model("Trainee", internSchema)
 
-export default Intern
+export default Trainee

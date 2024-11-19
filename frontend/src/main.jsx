@@ -12,7 +12,7 @@ import {
   Verify,
   Login,
   Dashboard,
-  UploadDetails
+  Intern
 } from "./components/xo.js"
 
 const router = createBrowserRouter([
@@ -54,7 +54,7 @@ const router = createBrowserRouter([
         children: [
           {
             path: "",
-            element: <UploadDetails />
+            element: <Intern />
           }
         ]
       }

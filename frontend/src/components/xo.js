@@ -8,7 +8,7 @@ import Footer from "./Footer";
 import Verify from "./Verify";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
-import UploadDetails from "./UploadDetails";
+import Intern from "./Intern";
 
 
 export {
@@ -22,5 +22,5 @@ export {
     Verify,
     Login,
     Dashboard,
-    UploadDetails
+    Intern
 }

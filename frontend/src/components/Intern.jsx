@@ -4,7 +4,7 @@ import { upload_intern_data } from '../../env.js'
 import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast'
 
-const UploadDetails = () => {
+const Intern = () => {
   const [details, setDetails] = useState({
     fullname: "",
     domain: "",
@@ -161,4 +161,4 @@ const UploadDetails = () => {
   )
 }
 
-export default UploadDetails
+export default Intern

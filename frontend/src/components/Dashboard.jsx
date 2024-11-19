@@ -32,7 +32,7 @@ const Dashboard = () => {
         toast.success(rspn?.data?.message)
         setTimeout(() => {
           navigate("/login")
-        }, 700)
+        }, 200)
 
       } catch (error) {
         // console.log(error?.response?.data?.message)
@@ -49,7 +49,7 @@ const Dashboard = () => {
       <div className='h-screen w-48 bg-slate-600 flex items-center flex-col justify-between pt-5'>
         <ul>
           <Link to={""}>
-            <li className='text-white font-bold'>Upload Details</li>
+            <li className='text-white font-bold mb-6'>Internship</li>
           </Link>
         </ul>
 

@@ -41,7 +41,7 @@ const Login = () => {
             toast.success("Login complete !!")
             setTimeout(() => {
                 navigate("/dashboard")
-            }, 1000)
+            }, 200)
         } catch (error) {
             toast.error(error?.response?.data?.message)
         }
