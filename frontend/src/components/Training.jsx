@@ -2,237 +2,75 @@ import React from 'react'
 
 const Training = () => {
   return (
-    <div
-      className='h-full w-full flex items-center justify-center flex-wrap gap-x-10 gap-y-5 py-10'
-    >
-      <a
-        href="https://forms.gle/S7aK5bsmHz82aMPq9" target='_blank'
-        className="w-[450px] py-5 px-5 relative block overflow-hidden rounded-lg border border-gray-100 sm:p-6 lg:p-8 shadow-xl"
-      >
-        <span
-          className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
-        ></span>
-
-        <div className="sm:flex sm:justify-between sm:gap-4">
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
-              Back-End Development using Node, Express, MongoDB
-            </h3>
-
-            <p className="mt-1 text-xs font-medium text-gray-600">By <span className='font-bold'>Rahul Ghosh</span></p>
-          </div>
-
-          <div className="hidden sm:block sm:shrink-0">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-16 rounded-lg object-cover shadow-sm"
-            />
-          </div>
+    <div class="p-4 font-[sans-serif]">
+      <div class="max-w-6xl max-lg:max-w-3xl max-sm:max-w-sm mx-auto">
+        <div class="max-w-md mx-auto">
+          <h2 class="text-3xl font-extrabold text-gray-800 mb-12 text-center leading-10">Connect with our Training Programs</h2>
         </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-sm:gap-8">
 
-        <div className="mt-4">
-          <p className="text-pretty text-sm text-gray-500">
-            "Master the art of backend development with Codexintern's expert-led training!
-            Learn Node.js, Express, and MongoDB to build secure, scalable web applications from scratch."
-          </p>
+          <div class="bg-white rounded overflow-hidden px-1 py-1 shadow-lg">
+            <img src="https://tolustar.com/wp-content/uploads/2020/02/Front-end-Development.jpeg" alt="Blog Post 1" class="w-full h-52 object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-gray-800 mb-3">Basic Web Development</h3>
+              <p class="text-gray-500 text-sm">Want to deep dive in the field of Web Dev. Join our training program to master HTML, CSS & JavaScript</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <a href="https://rzp.io/rzp/Gp4FkO9" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden px-1 py-1 shadow-lg">
+            <img src="https://www.creativeitinstitute.com/images/course/course_1674371266.jpg" alt="Blog Post 2" class="w-full h-52 object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-gray-800 mb-3">Front-End Development</h3>
+              <p class="text-gray-500 text-sm">Go deeper & Master Front-End Web Development using React, Tailwind, Shadcn & Radix UI. Beginner to Advance.</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <a href="https://rzp.io/rzp/I8XO0O3V" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden px-1 py-1 shadow-lg">
+            <img src="https://www.uidm.in/wp-content/uploads/2023/08/curso-python-gratis-facialix.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-gray-800 mb-3">Python Development</h3>
+              <p class="text-gray-500 text-sm">Master Python Programming for development. Learn different libraries in Python. Basic to Advance Training Program.</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <a href="https://rzp.io/rzp/9Ntc3YNs" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden px-1 py-1 shadow-lg">
+            <img src="https://t4.ftcdn.net/jpg/02/99/62/11/360_F_299621124_vutDKbNwRJG6poJRQQIMYfsc4tJCTO5E.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-gray-800 mb-3">Back-End Development</h3>
+              <p class="text-gray-500 text-sm">Insustry standard backend using NodeJS, ExpressJS, MongoDB, Mongoose ODM, JsonWebToken, Multer, Cloudinary.</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <a href="https://rzp.io/rzp/FW9AANrp" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden px-1 py-1 shadow-lg">
+            <img src="https://codequality.us/wp-content/uploads/2023/11/KB-MERN-Featured.jpg" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-gray-800 mb-3">Mern Stack Development</h3>
+              <p class="text-gray-500 text-sm">Industry standard MERN Stack training using React, Express, Node, Mongodb. Training program has not been opened yet. Stay tuned ...</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">Comming Soon ...</p>
+              <a href="javascript:void(0);" class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-red-500 hover:bg-red-700 text-white text-[13px]">$$$$ /- Only</a>
+            </div>
+          </div>
+
+          <div class="bg-white rounded overflow-hidden px-1 py-1 shadow-lg">
+            <img src="https://cdn.prod.website-files.com/6470768de8327f36a7ae11a5/64e5de11811d72e03bc71dbd_react-native.png" alt="Blog Post 3" class="w-full h-52 object-cover" />
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-gray-800 mb-3">Full Stack App Development using React Native</h3>
+              <p class="text-gray-500 text-sm">Full Stack Cross Platform App Development using React-Native.</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">Comming Soon ...</p>
+              <a href="javascript:void(0);" class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-red-500 hover:bg-red-700 text-white text-[13px]">$$$$ /- Only</a>
+            </div>
+          </div>
+
         </div>
-
-        <dl className="mt-6 flex gap-4 sm:gap-6">
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Open soon ...</dt>
-            <dd className="text-xs text-gray-500">Will be declared</dd>
-          </div>
-
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Duration</dt>
-            <dd className="text-xs text-gray-500">45 Days</dd>
-          </div>
-        </dl>
-      </a>
-
-      <a
-        href="#"
-        className="w-[450px] py-5 px-5 relative block overflow-hidden rounded-lg border border-gray-100 sm:p-6 lg:p-8 shadow-xl"
-      >
-        <span
-          className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
-        ></span>
-
-        <div className="sm:flex sm:justify-between sm:gap-4">
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
-              Front-End Development using ReactJs, TailWind CSS
-            </h3>
-
-            <p className="mt-1 text-xs font-medium text-gray-600">By <span className='font-bold'>Rahul Ghosh</span></p>
-          </div>
-
-          <div className="hidden sm:block sm:shrink-0">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-16 rounded-lg object-cover shadow-sm"
-            />
-          </div>
-        </div>
-
-        <div className="mt-4">
-          <p className="text-pretty text-sm text-gray-500">
-            "Unlock your potential in front-end development with Codexintern's hands-on training!
-            Learn React & TailWind CSS to create stunning, responsive web interfaces."
-          </p>
-        </div>
-
-        <dl className="mt-6 flex gap-4 sm:gap-6">
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Open soon ...</dt>
-            <dd className="text-xs text-gray-500">Will be declared</dd>
-          </div>
-
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Duration</dt>
-            <dd className="text-xs text-gray-500">45 Days</dd>
-          </div>
-        </dl>
-      </a>
-
-      <a
-        href="#"
-        className="w-[450px] py-5 px-5 relative block overflow-hidden rounded-lg border border-gray-100 sm:p-6 lg:p-8 shadow-xl"
-      >
-        <span
-          className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
-        ></span>
-
-        <div className="sm:flex sm:justify-between sm:gap-4">
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
-              Full-Stack using React, TailWind, Node, Express, MongoDB.
-            </h3>
-
-            <p className="mt-1 text-xs font-medium text-gray-600">By <span className='font-bold'>Rahul Ghosh</span></p>
-          </div>
-
-          <div className="hidden sm:block sm:shrink-0">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-16 rounded-lg object-cover shadow-sm"
-            />
-          </div>
-        </div>
-
-        <div className="mt-4">
-          <p className="text-pretty text-sm text-gray-500">
-          "Become a versatile developer with Codexintern's Full-Stack training, mastering both front-end and backend technologies!"
-          </p>
-        </div>
-
-        <dl className="mt-6 flex gap-4 sm:gap-6">
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Open soon ...</dt>
-            <dd className="text-xs text-gray-500">Will be declared</dd>
-          </div>
-
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Duration</dt>
-            <dd className="text-xs text-gray-500">45 Days</dd>
-          </div>
-        </dl>
-      </a>
-
-      <a
-        href="#"
-        className="w-[450px] py-5 px-5 relative block overflow-hidden rounded-lg border border-gray-100 sm:p-6 lg:p-8 shadow-xl"
-      >
-        <span
-          className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
-        ></span>
-
-        <div className="sm:flex sm:justify-between sm:gap-4">
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
-              App Development using React-Native
-            </h3>
-
-            <p className="mt-1 text-xs font-medium text-gray-600">By <span className='font-bold'>Rahul Ghosh</span></p>
-          </div>
-
-          <div className="hidden sm:block sm:shrink-0">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-16 rounded-lg object-cover shadow-sm"
-            />
-          </div>
-        </div>
-
-        <div className="mt-4">
-          <p className="text-pretty text-sm text-gray-500">
-          "Build powerful mobile apps with Codexintern's React Native training!
-          Learn to create seamless, cross-platform applications for iOS and Android from scratch."
-          </p>
-        </div>
-
-        <dl className="mt-6 flex gap-4 sm:gap-6">
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Open soon ...</dt>
-            <dd className="text-xs text-gray-500">Will be declared</dd>
-          </div>
-
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Duration</dt>
-            <dd className="text-xs text-gray-500">45 Days</dd>
-          </div>
-        </dl>
-      </a>
-
-      <a
-        href="#"
-        className="w-[450px] py-5 px-5 relative block overflow-hidden rounded-lg border border-gray-100 sm:p-6 lg:p-8 shadow-xl"
-      >
-        <span
-          className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
-        ></span>
-
-        <div className="sm:flex sm:justify-between sm:gap-4">
-          <div>
-            <h3 className="text-lg font-bold text-gray-900 sm:text-xl">
-              Python & Automation Training Program
-            </h3>
-
-            <p className="mt-1 text-xs font-medium text-gray-600">By <span className='font-bold'>Arnab Roy</span></p>
-          </div>
-
-          <div className="hidden sm:block sm:shrink-0">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-16 rounded-lg object-cover shadow-sm"
-            />
-          </div>
-        </div>
-
-        <div className="mt-4">
-          <p className="text-pretty text-sm text-gray-500">
-          "Streamline your workflows with Python & Automation training!
-          Learn to harness Python's capabilities for scripting, data processing, and automating repetitive tasks effectively."
-          </p>
-        </div>
-
-        <dl className="mt-6 flex gap-4 sm:gap-6">
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Open soon ...</dt>
-            <dd className="text-xs text-gray-500">Will be declared</dd>
-          </div>
-
-          <div className="flex flex-col-reverse">
-            <dt className="text-sm font-medium text-gray-600">Duration</dt>
-            <dd className="text-xs text-gray-500">45 Days</dd>
-          </div>
-        </dl>
-      </a>
+      </div>
     </div>
   )
 }
