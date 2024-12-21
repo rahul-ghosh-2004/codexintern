@@ -121,7 +121,7 @@ const Intern = () => {
           <select name="" id="" className='h-10 w-64 outline-none border-none rounded-md px-2' onChange={handleDomain} value={details.domain}>
             <option value="">Select</option>
             {/* <option value="Front-End Web Development">Front-End Web Development</option> */}
-            <option value="Basic Web Development">Basic Web Development</option>
+            <option value="Back-End Bootcamp">Back-End Bootcamp</option>
             {/* <option value="Python Development">Python Development</option>
             <option value="AI/ML">AI/ML</option>
             <option value="Full-Stack Development">Full-Stack Development</option>
