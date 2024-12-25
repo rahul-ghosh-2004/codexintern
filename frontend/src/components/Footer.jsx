@@ -19,7 +19,7 @@ const Footer = () => {
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
               <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
+                <li className="">
                   <Link to="/" className="hover:underline">
                     Home
                   </Link>
@@ -29,16 +29,26 @@ const Footer = () => {
                     About
                   </Link>
                 </li>
-              </ul>
-            </div>
-            <div>
-              <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
+                <li className="">
                   <Link
                     to={"contact"}
                     className="hover:underline"
                   >
                     Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <ul className="text-gray-500 font-medium">
+              <li className="">
+                  <Link to="internships" className="hover:underline">
+                    Internship Program
+                  </Link>
+                </li>
+                <li>
+                  <Link to="trainings" className="hover:underline">
+                    Training Program
                   </Link>
                 </li>
                 <li>
@@ -50,18 +60,19 @@ const Footer = () => {
             </div>
             <div>
               <ul className="text-gray-500 font-medium">
-                <li className="mb-4">
-                  <Link to="internships" className="hover:underline">
-                    Internship Program
+                <li className="">
+                  <Link to="terms&conditions" className="hover:underline">
+                    Terms & Conditions
                   </Link>
                 </li>
                 <li>
-                  <Link to="trainings" className="hover:underline">
-                    Training Program
+                  <Link to="refund_policy" className="hover:underline">
+                    Refund & Cancellation
                   </Link>
                 </li>
               </ul>
             </div>
+            
           </div>
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />

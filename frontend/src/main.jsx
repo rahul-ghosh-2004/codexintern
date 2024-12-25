@@ -12,7 +12,9 @@ import {
   Verify,
   Login,
   Dashboard,
-  Intern
+  Intern,
+  TermsAndConditions,
+  Refund
 } from "./components/xo.js"
 
 const router = createBrowserRouter([
@@ -47,6 +49,14 @@ const router = createBrowserRouter([
       {
         path: "login",
         element: <Login />
+      },
+      {
+        path: "terms&conditions",
+        element: <TermsAndConditions />
+      },
+      {
+        path: "refund_policy",
+        element: <Refund />
       },
       {
         path: "dashboard",

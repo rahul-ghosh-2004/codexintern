@@ -9,6 +9,8 @@ import Verify from "./Verify";
 import Login from "./Login";
 import Dashboard from "./Dashboard";
 import Intern from "./Intern";
+import TermsAndConditions from "./TermsAndConditions";
+import Refund from "./Refund";
 
 
 export {
@@ -22,5 +24,7 @@ export {
     Verify,
     Login,
     Dashboard,
-    Intern
+    Intern,
+    TermsAndConditions,
+    Refund
 }
