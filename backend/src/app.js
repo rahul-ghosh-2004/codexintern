@@ -28,8 +28,10 @@ app.use(express.static("public/temp"))
 
 import adminRoute from "./routes/admin.route.js"
 import internRoute from "./routes/intern.route.js"
+import applyInternRouter from "./routes/applyIntern.route.js"
 
 app.use("/api/v1/admin", adminRoute)
 app.use("/api/v1/intern", internRoute)
+app.use("/api/v1/intern_application", applyInternRouter)
 
 export default app
