@@ -58,8 +58,8 @@ function ApplyIntern() {
         </select>
       </div>
       <div>
-        <label className="mb-2 text-sm block">Mobile Number</label>
-        <input type='text' placeholder='Enter mobile number'
+        <label className="mb-2 text-sm block">WhatsApp Number</label>
+        <input type='text' placeholder='Enter your whatsapp number'
           className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, mobile: e.target.value}))} value={inputData.mobile}/>
       </div>
       <div>
@@ -77,6 +77,7 @@ function ApplyIntern() {
         <input type='text' placeholder='Enter your college name'
           className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, college: e.target.value}))} value={inputData.college}/>
       </div>
+      
 
       <div className="font-[sans-serif] space-x-4 space-y-4 text-center">
       <button type="button"
