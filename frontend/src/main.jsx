@@ -14,7 +14,8 @@ import {
   Dashboard,
   Intern,
   TermsAndConditions,
-  Refund
+  Refund,
+  ApplyIntern
 } from "./components/xo.js"
 
 const router = createBrowserRouter([
@@ -57,6 +58,10 @@ const router = createBrowserRouter([
       {
         path: "refund_policy",
         element: <Refund />
+      },
+      {
+        path: "apply_for_internship",
+        element: <ApplyIntern />
       },
       {
         path: "dashboard",

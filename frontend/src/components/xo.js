@@ -11,6 +11,7 @@ import Dashboard from "./Dashboard";
 import Intern from "./Intern";
 import TermsAndConditions from "./TermsAndConditions";
 import Refund from "./Refund";
+import ApplyIntern from "./ApplyIntern/ApplyIntern";
 
 
 export {
@@ -26,5 +27,6 @@ export {
     Dashboard,
     Intern,
     TermsAndConditions,
-    Refund
+    Refund,
+    ApplyIntern
 }
