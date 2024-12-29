@@ -40,17 +40,17 @@ function ApplyIntern() {
         <label className="mb-2 text-sm block">Full Name</label>
         <input type='text' placeholder='Enter full name'
           className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" 
-          onChange={(e) => setInputData((prev) => ({...prev, fullname: e.target.value}))}  
+          onChange={(e) => setInputData((prev) => ({...prev, fullname: e.target.value}))}  value={inputData.fullname}
         />
       </div>
       <div>
         <label className="mb-2 text-sm block">Email</label>
         <input type='text' placeholder='Enter email'
-          className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, email: e.target.value}))}/>
+          className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, email: e.target.value}))} value={inputData.email}/>
       </div>
       <div>
         <label className="mb-2 text-sm block">Gender</label>
-        <select name="gender" id="" className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, gender: e.target.value}))}>
+        <select name="gender" id="" className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, gender: e.target.value}))} value={inputData.gender}>
             <option value="">Select your gender</option>
             <option value="Male">Male</option>
             <option value="Female">Female</option>
@@ -60,11 +60,11 @@ function ApplyIntern() {
       <div>
         <label className="mb-2 text-sm block">Mobile Number</label>
         <input type='text' placeholder='Enter mobile number'
-          className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, mobile: e.target.value}))}/>
+          className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, mobile: e.target.value}))} value={inputData.mobile}/>
       </div>
       <div>
         <label className="mb-2 text-sm block">Internship Domain</label>
-        <select name="gender" id="" className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, domain: e.target.value}))}>
+        <select name="gender" id="" className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, domain: e.target.value}))} value={inputData.domain}>
             <option value="">Select internship domain</option>
             <option value="Basic Web Development">Basic Web Development</option>
             <option value="Front-End Development">Front-End Development</option>
@@ -75,7 +75,7 @@ function ApplyIntern() {
       <div>
         <label className="mb-2 text-sm block">College Name</label>
         <input type='text' placeholder='Enter your college name'
-          className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, college: e.target.value}))}/>
+          className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({...prev, college: e.target.value}))} value={inputData.college}/>
       </div>
 
       <div className="font-[sans-serif] space-x-4 space-y-4 text-center">
