@@ -19,10 +19,16 @@ function ApplyIntern() {
         try {
             const data = await axios.post(apply_intern, inputData, { withCredentials: true })
             toast.success("Application submitted successfully!")
-            console.log(data)
+            // console.log(data)
+            setInputData({fullname: "",
+              email: "",
+              mobile: "",
+              gender: "",
+              domain: "",
+              college: ""})
         } catch (error) {
             toast.error(error.response.data.message)
-            console.log(error.response.data.message)
+            // console.log(error.response.data.message)
         }
     }
 
