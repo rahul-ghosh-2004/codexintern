@@ -60,7 +60,7 @@ const router = createBrowserRouter([
         element: <Refund />
       },
       {
-        path: "apply_for_internship",
+        path: "jhgajsdgjhgsdhgjgsf",
         element: <ApplyIntern />
       },
       {
