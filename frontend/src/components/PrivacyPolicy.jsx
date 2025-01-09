@@ -147,7 +147,13 @@ function PrivacyPolicy() {
                                 • By visiting this page on our website: <a href="https://codexintern.in/contact" target='_blank' className='text-blue-500'>https://codexintern.in/contact</a>
                                 </p>
                                 <p className='mt-5'>
-                                • By sending us an email: services@codexintern.in
+                                • By sending us an email: <span className='text-blue-500'>services@codexintern.in</span>
+                                </p>
+                                <p className='mt-5'>
+                                • By calling us: <span className='text-blue-500'>+91 8337057568</span>
+                                </p>
+                                <p className='mt-5'>
+                                • Registered address: <span className='text-blue-500'>46A, Sarat Bose Colony, Kolkata - 700078, PO: Haltu, West Bengal, India.</span>
                                 </p>
                             </p>
                         </div>
