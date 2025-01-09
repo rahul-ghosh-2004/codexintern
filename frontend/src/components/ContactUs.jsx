@@ -12,7 +12,7 @@ const ContactUs = () => {
                     <ul class="mt-4">
                         <li class="flex items-center">
                             <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-4">
-                                <strong>services.codexintern@gmail.com</strong>
+                                <strong>services@codexintern.in</strong>
                             </a>
                         </li>
                     </ul>
