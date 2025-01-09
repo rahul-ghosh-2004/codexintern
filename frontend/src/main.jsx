@@ -15,7 +15,8 @@ import {
   Intern,
   TermsAndConditions,
   Refund,
-  ApplyIntern
+  ApplyIntern,
+  PrivacyPolicy
 } from "./components/xo.js"
 
 const router = createBrowserRouter([
@@ -58,6 +59,10 @@ const router = createBrowserRouter([
       {
         path: "refund_policy",
         element: <Refund />
+      },
+      {
+        path: "privacy_policy",
+        element: <PrivacyPolicy />
       },
       {
         path: "jhgajsdgjhgsdhgjgsf",

@@ -12,6 +12,7 @@ import Intern from "./Intern";
 import TermsAndConditions from "./TermsAndConditions";
 import Refund from "./Refund";
 import ApplyIntern from "./ApplyIntern/ApplyIntern";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 
 export {
@@ -28,5 +29,6 @@ export {
     Intern,
     TermsAndConditions,
     Refund,
-    ApplyIntern
+    ApplyIntern,
+    PrivacyPolicy
 }
