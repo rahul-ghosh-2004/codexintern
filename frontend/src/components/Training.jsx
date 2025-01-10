@@ -55,7 +55,7 @@ const Training = () => {
               <h3 class="text-lg font-bold text-gray-800 mb-3">Mern Stack Development</h3>
               <p class="text-gray-500 text-sm">Industry standard MERN Stack training using React, Express, Node, Mongodb. Training program has not been opened yet. Stay tuned ...</p>
               <p class="text-gray-800 text-[13px] font-semibold mt-4">Comming Soon ...</p>
-              <a href="javascript:void(0);" class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-red-500 hover:bg-red-700 text-white text-[13px]">$$$$ /- Only</a>
+              <a href="javascript:void(0);" class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-red-500 hover:bg-red-700 text-white text-[13px]">Comming Soon</a>
             </div>
           </div>
 
@@ -65,7 +65,7 @@ const Training = () => {
               <h3 class="text-lg font-bold text-gray-800 mb-3">Full Stack App Development using React Native</h3>
               <p class="text-gray-500 text-sm">Full Stack Cross Platform App Development using React-Native.</p>
               <p class="text-gray-800 text-[13px] font-semibold mt-4">Comming Soon ...</p>
-              <a href="javascript:void(0);" class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-red-500 hover:bg-red-700 text-white text-[13px]">$$$$ /- Only</a>
+              <a href="javascript:void(0);" class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-red-500 hover:bg-red-700 text-white text-[13px]">Comming Soon</a>
             </div>
           </div>
 

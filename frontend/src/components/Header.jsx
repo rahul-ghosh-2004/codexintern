@@ -45,9 +45,9 @@ const Header = () => {
               <NavLink to={"/"}
                 class='hover:text-[#007bff] text-[#007bff] font-semibold block text-[15px]'>Home</NavLink>
             </li>
-            <li class='max-lg:border-b max-lg:py-3 px-3'><NavLink to={"internships"}
+            {/* <li class='max-lg:border-b max-lg:py-3 px-3'><NavLink to={"internships"}
               class='hover:text-[#007bff] text-[#333] font-semibold block text-[15px]'>Internship Program</NavLink>
-            </li>
+            </li> */}
             <li class='max-lg:border-b max-lg:py-3 px-3'><NavLink to={"trainings"}
               class='hover:text-[#007bff] text-[#333] font-semibold block text-[15px]'>Training Program</NavLink>
             </li>

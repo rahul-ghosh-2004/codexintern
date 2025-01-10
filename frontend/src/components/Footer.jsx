@@ -41,11 +41,11 @@ const Footer = () => {
             </div>
             <div>
               <ul className="text-gray-500 font-medium">
-              <li className="">
+              {/* <li className="">
                   <Link to="internships" className="hover:underline">
                     Internship Program
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link to="trainings" className="hover:underline">
                     Training Program
