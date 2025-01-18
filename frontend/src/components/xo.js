@@ -13,6 +13,7 @@ import TermsAndConditions from "./TermsAndConditions";
 import Refund from "./Refund";
 import ApplyIntern from "./ApplyIntern/ApplyIntern";
 import PrivacyPolicy from "./PrivacyPolicy";
+import TempPay from "./TempPay";
 
 
 export {
@@ -30,5 +31,6 @@ export {
     TermsAndConditions,
     Refund,
     ApplyIntern,
-    PrivacyPolicy
+    PrivacyPolicy,
+    TempPay
 }

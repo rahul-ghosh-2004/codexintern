@@ -16,7 +16,8 @@ import {
   TermsAndConditions,
   Refund,
   ApplyIntern,
-  PrivacyPolicy
+  PrivacyPolicy,
+  TempPay
 } from "./components/xo.js"
 
 const router = createBrowserRouter([
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
       {
         path: "jhgajsdgjhgsdhgjgsf",
         element: <ApplyIntern />
+      },
+      {
+        path: "temp_pay",
+        element: <TempPay />
       },
       {
         path: "dashboard",
