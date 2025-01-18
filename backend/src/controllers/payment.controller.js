@@ -4,7 +4,7 @@ import axios from "axios"
 const order = async (req, res) => {
     const info = {
         name: 'Vikas',
-        amount: 1,
+        amount: 10,
         number: '9999999999',
         MUID: "MUID" + Date.now(),
         transactionId: 'T' + Date.now(),
