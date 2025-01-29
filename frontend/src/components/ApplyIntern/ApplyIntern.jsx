@@ -98,7 +98,7 @@ function ApplyIntern() {
 
       <div className="font-[sans-serif] space-x-4 space-y-4 text-center">
         <button type="button"
-          className="px-5 py-2 rounded-lg text-sm tracking-wider font-medium border border-black outline-none bg-transparent hover:bg-black text-black hover:text-white transition-all duration-300" onClick={handleSubmit}>
+          className="px-5 py-2 rounded-lg text-sm tracking-wider font-medium border border-black outline-none bg-transparent hover:bg-black text-black hover:text-white transition-all duration-300" onClick={handleSubmit} disabled={loadingStatus}>
             {
               loadingStatus ? <LoaderCircle className='animate-spin'/> : "Apply"
             }
