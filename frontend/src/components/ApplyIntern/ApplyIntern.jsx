@@ -4,6 +4,7 @@ import { apply_intern } from '../../../env.js'
 import toast, { Toaster } from 'react-hot-toast'
 import { Link } from 'react-router-dom'
 import { PiWhatsappLogoDuotone } from "react-icons/pi";
+import { LoaderCircle } from 'lucide-react';
 
 function ApplyIntern() {
   const [inputData, setInputData] = React.useState({
@@ -15,12 +16,15 @@ function ApplyIntern() {
     college: ""
   })
 
+  const [ loadingStatus, setLoadingStatus ] = React.useState(false)
+
   const handleSubmit = async (e) => {
     e.preventDefault()
-
+    setLoadingStatus(true)
     try {
       const data = await axios.post(apply_intern, inputData, { withCredentials: true })
       toast.success("Application submitted successfully!")
+      setLoadingStatus(false)
       // console.log(data)
       setInputData({
         fullname: "",
@@ -31,6 +35,7 @@ function ApplyIntern() {
         college: ""
       })
     } catch (error) {
+      setLoadingStatus(false)
       toast.error(error.response.data.message)
       // console.log(error.response.data.message)
     }
@@ -93,7 +98,11 @@ function ApplyIntern() {
 
       <div className="font-[sans-serif] space-x-4 space-y-4 text-center">
         <button type="button"
-          className="px-5 py-2 rounded-lg text-sm tracking-wider font-medium border border-black outline-none bg-transparent hover:bg-black text-black hover:text-white transition-all duration-300" onClick={handleSubmit}>Apply</button>
+          className="px-5 py-2 rounded-lg text-sm tracking-wider font-medium border border-black outline-none bg-transparent hover:bg-black text-black hover:text-white transition-all duration-300" onClick={handleSubmit}>
+            {
+              loadingStatus ? <LoaderCircle className='animate-spin'/> : "Apply"
+            }
+          </button>
       </div>
       <div class="space-x-6 space-y-4 text-center m-4">
         <Link to={"https://www.linkedin.com/company/codexintern/"}>
