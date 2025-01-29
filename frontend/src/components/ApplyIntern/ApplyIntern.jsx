@@ -3,6 +3,7 @@ import axios from "axios"
 import { apply_intern } from '../../../env.js'
 import toast, { Toaster } from 'react-hot-toast'
 import { Link } from 'react-router-dom'
+import { PiWhatsappLogoDuotone } from "react-icons/pi";
 
 function ApplyIntern() {
   const [inputData, setInputData] = React.useState({
@@ -39,6 +40,14 @@ function ApplyIntern() {
   return (
     <div className="w-full h-screen flex flex-col justify-center max-w-lg mx-auto px-4 space-y-6 font-[sans-serif] text-[#333]">
       <Toaster />
+
+      <a href="">
+      <div className='flex justify-center items-center gap-x-2'>
+        <h1 className='text-lg font-semibold text-blue-600'>Please join CODEXINTERN's internship group</h1>
+        <PiWhatsappLogoDuotone size={35} color='green' className='cursor-pointer'/>
+      </div>
+      
+      </a>
       <div>
         <label className="mb-2 text-sm block">Full Name</label>
         <input type='text' placeholder='Enter full name'
