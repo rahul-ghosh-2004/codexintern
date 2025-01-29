@@ -70,6 +70,18 @@ const apply = AsyncHandler(async (req, res) => {
         )
     }
 
+    const isApplied = await ApplyIntern.findOne({
+        $and: [ {email: email?.trim()?.toLowerCase()}, {mobile: mobile?.trim()}, {domain: domain?.trim()} ]
+    })
+
+    if (isApplied) {
+        return res
+        .status(400)
+        .json(
+            new HandleError(400, "Application already submitted!")
+        )
+    }
+
     const document = await ApplyIntern.create({
         fullname,
         email,
