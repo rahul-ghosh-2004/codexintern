@@ -14,7 +14,7 @@ const Training = () => {
             <div class="p-6">
               <h3 class="text-lg font-bold text-gray-800 mb-3">Basic Web Development</h3>
               <p class="text-gray-500 text-sm">Want to deep dive in the field of Web Dev. Join our training program to master HTML, CSS & JavaScript</p>
-              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 March, 2025</p>
               <a href="https://rzp.io/rzp/Gp4FkO9" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
             </div>
           </div>
@@ -24,7 +24,7 @@ const Training = () => {
             <div class="p-6">
               <h3 class="text-lg font-bold text-gray-800 mb-3">Front-End Development</h3>
               <p class="text-gray-500 text-sm">Go deeper & Master Front-End Web Development using React, Tailwind, Shadcn & Radix UI. Beginner to Advance.</p>
-              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 March, 2025</p>
               <a href="https://rzp.io/rzp/I8XO0O3V" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Training = () => {
             <div class="p-6">
               <h3 class="text-lg font-bold text-gray-800 mb-3">Python Development</h3>
               <p class="text-gray-500 text-sm">Master Python Programming for development. Learn different libraries in Python. Basic to Advance Training Program.</p>
-              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 March, 2025</p>
               <a href="https://rzp.io/rzp/9Ntc3YNs" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
             </div>
           </div>
@@ -44,7 +44,7 @@ const Training = () => {
             <div class="p-6">
               <h3 class="text-lg font-bold text-gray-800 mb-3">Back-End Development</h3>
               <p class="text-gray-500 text-sm">Insustry standard backend using NodeJS, ExpressJS, MongoDB, Mongoose ODM, JsonWebToken, Multer, Cloudinary.</p>
-              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 January, 2025</p>
+              <p class="text-gray-800 text-[13px] font-semibold mt-4">10 March, 2025</p>
               <a href="https://rzp.io/rzp/FW9AANrp" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">119/- Only</a>
             </div>
           </div>
