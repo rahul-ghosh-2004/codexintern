@@ -66,7 +66,7 @@ const router = createBrowserRouter([
         element: <PrivacyPolicy />
       },
       {
-        path: "pouwdkjhiuyscjhgZXMbjkjzchkjhckj",
+        path: "apply-for-internship",
         element: <ApplyIntern />
       },
       {
