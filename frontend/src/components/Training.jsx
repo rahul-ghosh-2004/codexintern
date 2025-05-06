@@ -41,7 +41,7 @@ const Training = () => {
               <h3 class="text-lg font-bold text-gray-800 mb-3">MySQL/OracleDB & MongoDB</h3>
               <p class="text-gray-500 text-sm">Want to deep dive into the field of Database Management? Join our training program to master MySQL, OracleSQL, and MongoDB.</p>
               <div className='flex items-center justify-between gap-x-5'>
-                <p class="text-gray-800 text-[13px] font-semibold mt-4">15th March, 2025</p>
+                <p class="text-gray-800 text-[13px] font-semibold mt-4">15th May, 2025</p>
                 <a href='#' className='mt-4 text-sm text-blue-900 underline'>Brochure</a>
               </div>
               <a href="https://rzp.io/rzp/p2INHIj" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-green-600 hover:bg-green-700 text-white text-[13px]">149/- Only</a>
@@ -54,7 +54,7 @@ const Training = () => {
               <h3 class="text-lg font-bold text-gray-800 mb-3">Front-End Development</h3>
               <p class="text-gray-500 text-sm">Go deeper & Master Front-End Web Development using React, Tailwind, Shadcn & Radix UI. Beginner to Advance.</p>
               <div className='flex items-center justify-between gap-x-5'>
-                <p class="text-gray-800 text-[13px] font-semibold mt-4">15th March, 2025</p>
+                <p class="text-gray-800 text-[13px] font-semibold mt-4">15th May, 2025</p>
                 <a href='https://drive.google.com/file/d/1Rd2p2WN1bpBV_zvdWgn61KG36CrU4fbS/view?usp=sharing' target='_blank' className='mt-4 text-sm text-blue-900 underline'>Brochure</a>
               </div>
               <a href="https://rzp.io/rzp/I8XO0O3V" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">199/- Only</a>
@@ -67,7 +67,7 @@ const Training = () => {
               <h3 class="text-lg font-bold text-gray-800 mb-3">Back-End Development</h3>
               <p class="text-gray-500 text-sm">Insustry standard backend using NodeJS, ExpressJS, MongoDB, Mongoose ODM, JsonWebToken, Multer, Cloudinary.</p>
               <div className='flex items-center justify-between gap-x-5'>
-                <p class="text-gray-800 text-[13px] font-semibold mt-4">15th March, 2025</p>
+                <p class="text-gray-800 text-[13px] font-semibold mt-4">15th May, 2025</p>
                 <a href='https://drive.google.com/file/d/1pbFZA5-VEZGcy4Dv17kDtE57bg5ZIkeP/view?usp=sharing' target='_blank' className='mt-4 text-sm text-blue-900 underline'>Brochure</a>
               </div>
               <a href="https://rzp.io/rzp/FW9AANrp" target='_blank' class="mt-4 inline-block px-4 py-2 rounded tracking-wider bg-purple-600 hover:bg-purple-700 text-white text-[13px]">199/- Only</a>
