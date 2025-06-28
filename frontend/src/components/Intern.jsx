@@ -128,6 +128,11 @@ const Intern = () => {
             <option value="MongoDB Bootcamp">MongoDB Bootcamp</option> */}
             <option value="Basic Web Development">Basic Web Development</option>
             <option value="Back-End Development">Back-End Development</option>
+            <option value="Data Science Training Program">Data Science Training Program</option>
+            <option value="Front-End Training Program">Front-End Training Program</option>
+            <option value="Back-End Training Program">Back-End Training Program</option>
+            <option value="MERN Stack Training Program">MERN Stack Training Program</option>
+            <option value="Django Fullstack Training Program">MERN Stack Training Program</option>
           </select>
         </div>
         {/* <input type="text" placeholder='Internship Month' className='h-10 w-64 outline-none border-none rounded-md px-2'/> */}
