@@ -31,11 +31,13 @@ import internRoute from "./routes/intern.route.js"
 import applyInternRouter from "./routes/applyIntern.route.js"
 import studentRoute from "./routes/student.route.js"
 import paymentRoute from "./routes/payment.route.js"
+import taskUploadRoute from "./routes/task.route.js"
 
 app.use("/api/v1/admin", adminRoute)
 app.use("/api/v1/intern", internRoute)
 app.use("/api/v1/intern_application", applyInternRouter)
 app.use("/api/v1/student", studentRoute)
 app.use("/api/v1/payment", paymentRoute)
+app.use("/api/v1/task", taskUploadRoute)
 
 export default app
