@@ -34,7 +34,7 @@ function ApplyIntern() {
         domain: "",
         college: ""
       })
-      window.location.href = "https://chat.whatsapp.com/IZl5SadOGuiBINoGQkhcIt"
+      window.location.href = "https://chat.whatsapp.com/Eh9Z6i08b2K4pE08LPgjr4"
     } catch (error) {
       setLoadingStatus(false)
       toast.error(error.response.data.message)
@@ -47,7 +47,7 @@ function ApplyIntern() {
     <div className="w-full h-screen flex flex-col justify-center max-w-lg mx-auto px-4 space-y-6 font-[sans-serif] text-[#333]">
       <Toaster />
 
-      <a href="https://chat.whatsapp.com/IZl5SadOGuiBINoGQkhcIt" target='_blank'>
+      <a href="https://chat.whatsapp.com/Eh9Z6i08b2K4pE08LPgjr4" target='_blank'>
       <div className='flex justify-center items-center gap-x-2'>
         <h1 className='text-lg font-semibold text-blue-600'>Please join CODEXINTERN's internship group</h1>
         <PiWhatsappLogoDuotone size={35} color='green' className='cursor-pointer'/>
@@ -84,10 +84,10 @@ function ApplyIntern() {
         <label className="mb-2 text-sm block">Internship Domain</label>
         <select name="gender" id="" className="px-4 py-1.5 text-sm rounded-md bg-white border border-gray-400 w-full outline-blue-500" onChange={(e) => setInputData((prev) => ({ ...prev, domain: e.target.value }))} value={inputData.domain}>
           <option value="">Select internship domain</option>
-          <option value="Basic Web Development">Basic Web Development</option>
           <option value="Front-End Development">Front-End Development</option>
           <option value="Back-End Development">Back-End Development</option>
           <option value="Python Development">Python Development</option>
+          <option value="AI/ML">AI/ML</option>
         </select>
       </div>
       <div>
@@ -126,7 +126,7 @@ function ApplyIntern() {
             </svg>
           </button></Link>
 
-        <Link to={"https://chat.whatsapp.com/IZl5SadOGuiBINoGQkhcIt"}>
+        <Link to={"https://chat.whatsapp.com/Eh9Z6i08b2K4pE08LPgjr4"}>
           <button type="button"
             class="w-10 h-10 inline-flex items-center justify-center rounded-full border-none outline-none bg-[#4caf50] hover:bg-[#4caf10] active:bg-[#4caf50]">
             <svg xmlns="http://www.w3.org/2000/svg" width="16px" fill="#fff" viewBox="0 0 512 512">
