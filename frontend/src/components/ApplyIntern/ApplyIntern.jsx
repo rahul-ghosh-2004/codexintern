@@ -88,6 +88,7 @@ function ApplyIntern() {
           <option value="Back-End Development">Back-End Development</option>
           <option value="Python Development">Python Development</option>
           <option value="AI/ML">AI/ML</option>
+          <option value="C Language">C Language</option>
         </select>
       </div>
       <div>
