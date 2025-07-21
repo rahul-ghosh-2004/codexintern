@@ -29,7 +29,7 @@ const applyInternSchema = new Schema({
     },
     domain: {
         type: String,
-        enum: ["Front-End Development", "Basic Web Development", "Back-End Development", "Python Development"],
+        enum: ["Front-End Development", "Basic Web Development", "Back-End Development", "Python Development", "AI/ML", "C Language"],
         trim: true,
         index: true,
         required: true
