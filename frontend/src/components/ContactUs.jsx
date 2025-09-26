@@ -22,7 +22,7 @@ const ContactUs = () => {
                     <ul class="mt-4">
                         <li class="flex items-center">
                             <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-4">
-                                <strong>+91 8337057568</strong>
+                                <strong>+91 8583049536</strong>
                             </a>
                         </li>
                     </ul>
@@ -32,7 +32,7 @@ const ContactUs = () => {
                     <ul class="mt-4">
                         <li class="flex items-center">
                             <a href="javascript:void(0)" class="text-[#007bff] text-sm ml-4">
-                                <strong>46A, Sarat Bose Colony, Kolkata - 700078, PO: Haltu, West Bengal, India.</strong>
+                                <strong>46B, Sarat Ghosh Garden Road, Kolkata - 700078, PO: Kasba, West Bengal, India.</strong>
                             </a>
                         </li>
                     </ul>
